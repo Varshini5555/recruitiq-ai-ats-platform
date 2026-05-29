@@ -1,0 +1,70 @@
+{
+  "job_id": "DA_MASTER_001",
+  "role": "Data Analyst",
+  "company": "Generic",
+  "experience_level": "Mid-Level",
+
+  "job_summary": "Analyze business and operational data to generate actionable insights, build dashboards, and support data-driven decision-making across stakeholders.",
+
+  "skills": {
+    "must_have": [
+      {"name": "SQL", "weight": 1.0},
+      {"name": "Data Analysis", "weight": 1.0},
+      {"name": "Dashboarding", "weight": 1.0},
+      {"name": "Data Visualization", "weight": 0.95},
+      {"name": "Business Insights", "weight": 0.95},
+      {"name": "KPI Tracking", "weight": 0.9}
+    ],
+    "good_to_have": [
+      {"name": "Excel", "weight": 0.95},
+      {"name": "Power BI", "weight": 0.9},
+      {"name": "Tableau", "weight": 0.9},
+      {"name": "Python", "weight": 0.8},
+      {"name": "Data Validation", "weight": 0.85},
+      {"name": "Automation", "weight": 0.8},
+      {"name": "Data Modeling", "weight": 0.8}
+    ],
+    "specialized": [
+      {"name": "Financial Analysis", "weight": 0.85},
+      {"name": "Business Intelligence", "weight": 0.9},
+      {"name": "A/B Testing", "weight": 0.75},
+      {"name": "Statistical Analysis", "weight": 0.75},
+      {"name": "Power Apps / Power Automate", "weight": 0.7}
+    ]
+  },
+
+  "tools_and_technologies": [
+    "Google Sheets",
+    "PrestoDB",
+    "Excel Macros",
+    "DAX",
+    "Power Query"
+  ],
+
+  "responsibilities": [
+    "Analyze datasets to generate actionable business insights",
+    "Build and maintain dashboards and reports",
+    "Track KPIs and performance metrics",
+    "Communicate insights to stakeholders",
+    "Ensure data quality and consistency",
+    "Support business decision-making with data"
+  ],
+
+  "qualifications": {
+    "education": "Bachelor’s in Analytics, Business, Statistics, or related field",
+    "certifications": []
+  },
+
+  "experience_requirements": {
+    "min_years": 2,
+    "max_years": 6
+  },
+
+  "keywords": [
+    "data analysis",
+    "dashboard",
+    "sql",
+    "business intelligence",
+    "kpi"
+  ]
+}

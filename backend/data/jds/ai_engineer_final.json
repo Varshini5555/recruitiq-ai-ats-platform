@@ -1,0 +1,76 @@
+{
+  "job_id": "AI_MASTER_001",
+  "role": "AI Engineer / GenAI Engineer",
+  "company": "Generic",
+  "experience_level": "Mid-Senior",
+
+  "job_summary": "Design, develop, and deploy AI-powered systems using machine learning, generative AI, and large language models to solve complex business problems and build intelligent applications.",
+
+  "skills": {
+    "must_have": [
+      {"name": "Python", "weight": 1.0},
+      {"name": "Machine Learning", "weight": 0.95},
+      {"name": "Model Development", "weight": 0.95},
+      {"name": "Model Deployment", "weight": 0.95},
+      {"name": "Data Preprocessing", "weight": 0.9},
+      {"name": "APIs / System Integration", "weight": 0.95}
+    ],
+    "good_to_have": [
+      {"name": "Natural Language Processing (NLP)", "weight": 0.95},
+      {"name": "Deep Learning", "weight": 0.9},
+      {"name": "Cloud Platforms (AWS/Azure/GCP)", "weight": 0.9},
+      {"name": "Docker", "weight": 0.85},
+      {"name": "Kubernetes", "weight": 0.85},
+      {"name": "CI/CD", "weight": 0.85}
+    ],
+    "specialized": [
+      {"name": "Large Language Models (LLMs)", "weight": 1.0},
+      {"name": "Generative AI", "weight": 1.0},
+      {"name": "RAG (Retrieval-Augmented Generation)", "weight": 0.95},
+      {"name": "Prompt Engineering", "weight": 0.95},
+      {"name": "Vector Databases", "weight": 0.9},
+      {"name": "LangChain / AutoGen", "weight": 0.9},
+      {"name": "Agent-Based Systems", "weight": 0.9},
+      {"name": "MLOps", "weight": 0.85},
+      {"name": "AI Governance / Responsible AI", "weight": 0.8}
+    ]
+  },
+
+  "tools_and_technologies": [
+    "Hugging Face",
+    "OpenAI APIs",
+    "Azure AI",
+    "Databricks",
+    "TensorFlow",
+    "PyTorch",
+    "Git"
+  ],
+
+  "responsibilities": [
+    "Develop and deploy AI/GenAI solutions",
+    "Build and integrate LLM-based applications",
+    "Design RAG pipelines and intelligent agents",
+    "Optimize and monitor AI model performance",
+    "Collaborate with cross-functional teams",
+    "Ensure scalability, reliability, and ethical AI usage"
+  ],
+
+  "qualifications": {
+    "education": "Bachelor’s or Master’s in Computer Science, AI, or related field",
+    "certifications": []
+  },
+
+  "experience_requirements": {
+    "min_years": 2,
+    "max_years": 8
+  },
+
+  "keywords": [
+    "genai",
+    "llm",
+    "rag",
+    "ai systems",
+    "prompt engineering",
+    "nlp"
+  ]
+}

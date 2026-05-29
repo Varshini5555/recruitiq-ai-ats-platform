@@ -1,0 +1,78 @@
+{
+  "job_id": "MLE_MASTER_001",
+  "role": "Machine Learning Engineer",
+  "company": "Generic",
+  "experience_level": "Mid-Senior",
+
+  "job_summary": "Design, build, and deploy scalable machine learning models and pipelines to solve real-world business problems, ensuring performance, reliability, and production readiness.",
+
+  "skills": {
+    "must_have": [
+      {"name": "Python", "weight": 1.0},
+      {"name": "Machine Learning", "weight": 1.0},
+      {"name": "Model Training & Evaluation", "weight": 0.95},
+      {"name": "Data Preprocessing", "weight": 0.95},
+      {"name": "Feature Engineering", "weight": 0.95},
+      {"name": "SQL", "weight": 0.85}
+    ],
+    "good_to_have": [
+      {"name": "Deep Learning", "weight": 0.9},
+      {"name": "PyTorch", "weight": 0.9},
+      {"name": "TensorFlow", "weight": 0.9},
+      {"name": "Model Deployment", "weight": 0.9},
+      {"name": "Data Pipelines", "weight": 0.85},
+      {"name": "Docker", "weight": 0.8},
+      {"name": "Kubernetes", "weight": 0.8},
+      {"name": "Cloud ML Platforms (AWS/GCP/Azure)", "weight": 0.9}
+    ],
+    "specialized": [
+      {"name": "MLOps", "weight": 0.95},
+      {"name": "CI/CD for ML", "weight": 0.9},
+      {"name": "Model Monitoring", "weight": 0.9},
+      {"name": "NLP", "weight": 0.8},
+      {"name": "Computer Vision", "weight": 0.8},
+      {"name": "LLMs / Generative AI", "weight": 0.85},
+      {"name": "Time Series Analysis", "weight": 0.75},
+      {"name": "Feature Stores", "weight": 0.75},
+      {"name": "Vector Databases", "weight": 0.75}
+    ]
+  },
+
+  "tools_and_technologies": [
+    "Scikit-learn",
+    "XGBoost",
+    "Jupyter",
+    "Airflow",
+    "Kubeflow",
+    "MLflow",
+    "BigQuery",
+    "Spark"
+  ],
+
+  "responsibilities": [
+    "Design and develop machine learning models",
+    "Prepare and preprocess data for training",
+    "Deploy models into production environments",
+    "Build and maintain ML pipelines",
+    "Monitor model performance and retrain when needed",
+    "Collaborate with data scientists and product teams"
+  ],
+
+  "qualifications": {
+    "education": "Bachelor’s or Master’s in Computer Science, AI, or related field",
+    "certifications": []
+  },
+
+  "experience_requirements": {
+    "min_years": 3,
+    "max_years": 10
+  },
+
+  "keywords": [
+    "machine learning",
+    "model deployment",
+    "deep learning",
+    "mlops",
+    "data science"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "job_id": "DS_MASTER_001",
+  "role": "Data Scientist",
+  "company": "Generic",
+  "experience_level": "Mid-Senior",
+
+  "job_summary": "Analyze complex data, build predictive models, and generate actionable insights to support business decision-making using statistical and machine learning techniques.",
+
+  "skills": {
+    "must_have": [
+      {"name": "Python", "weight": 1.0},
+      {"name": "SQL", "weight": 0.95},
+      {"name": "Data Analysis", "weight": 1.0},
+      {"name": "Exploratory Data Analysis (EDA)", "weight": 1.0},
+      {"name": "Statistical Modeling", "weight": 1.0},
+      {"name": "Machine Learning", "weight": 0.95},
+      {"name": "Feature Engineering", "weight": 0.9}
+    ],
+    "good_to_have": [
+      {"name": "Data Visualization", "weight": 0.9},
+      {"name": "Power BI", "weight": 0.75},
+      {"name": "Tableau", "weight": 0.75},
+      {"name": "Deep Learning", "weight": 0.85},
+      {"name": "Scikit-learn", "weight": 0.9},
+      {"name": "R", "weight": 0.75},
+      {"name": "Predictive Modeling", "weight": 0.95}
+    ],
+    "specialized": [
+      {"name": "Big Data (Spark/Hadoop)", "weight": 0.85},
+      {"name": "Cloud Platforms (AWS/GCP/Azure)", "weight": 0.85},
+      {"name": "Data Pipelines", "weight": 0.8},
+      {"name": "MLOps", "weight": 0.8},
+      {"name": "NLP", "weight": 0.8},
+      {"name": "Computer Vision", "weight": 0.8},
+      {"name": "Generative AI", "weight": 0.75},
+      {"name": "Time Series Forecasting", "weight": 0.85}
+    ]
+  },
+
+  "tools_and_technologies": [
+    "Pandas",
+    "NumPy",
+    "Matplotlib",
+    "Seaborn",
+    "TensorFlow",
+    "PyTorch",
+    "Databricks",
+    "Airflow"
+  ],
+
+  "responsibilities": [
+    "Perform exploratory data analysis to identify trends and patterns",
+    "Build and validate machine learning models",
+    "Translate business problems into data science solutions",
+    "Communicate insights to stakeholders",
+    "Collaborate with data engineers and ML engineers",
+    "Design experiments and evaluate model performance"
+  ],
+
+  "qualifications": {
+    "education": "Bachelor’s or Master’s in Computer Science, Statistics, Mathematics, or related field",
+    "certifications": []
+  },
+
+  "experience_requirements": {
+    "min_years": 3,
+    "max_years": 10
+  },
+
+  "keywords": [
+    "data science",
+    "eda",
+    "statistical modeling",
+    "machine learning",
+    "predictive analytics"
+  ]
+}

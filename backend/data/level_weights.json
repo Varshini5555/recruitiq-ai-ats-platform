@@ -1,0 +1,50 @@
+{
+  "fresher": {
+    "projects": 0.4,
+    "skills": 0.35,
+    "internships": 0.15,
+    "education": 0.1,
+    "experience": 0.0,
+
+    "impact_multiplier": 1.0,
+    "project_multiplier": 1.0,
+
+    "leadership_expectation": 0,
+    "architecture_expectation": 0,
+
+    "advanced_project_expectation": 1,
+    "minimum_project_complexity": 10
+  },
+
+  "mid": {
+    "experience": 0.4,
+    "skills": 0.35,
+    "projects": 0.15,
+    "education": 0.1,
+
+    "impact_multiplier": 0.9,
+    "project_multiplier": 0.85,
+
+    "leadership_expectation": 1,
+    "architecture_expectation": 1,
+
+    "advanced_project_expectation": 2,
+    "minimum_project_complexity": 15
+  },
+
+  "senior": {
+    "experience": 0.5,
+    "system_design": 0.2,
+    "skills": 0.2,
+    "leadership": 0.1,
+
+    "impact_multiplier": 0.75,
+    "project_multiplier": 0.65,
+
+    "leadership_expectation": 2,
+    "architecture_expectation": 2,
+
+    "advanced_project_expectation": 3,
+    "minimum_project_complexity": 20
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "job_id": "DE_MASTER_001",
+  "role": "Data Engineer",
+  "company": "Generic",
+  "experience_level": "Mid-Level",
+
+  "job_summary": "Design, build, and maintain scalable data pipelines and data infrastructure to support analytics, machine learning, and business intelligence systems.",
+
+  "skills": {
+    "must_have": [
+      {"name": "Python", "weight": 1.0},
+      {"name": "SQL", "weight": 1.0},
+      {"name": "Data Pipelines", "weight": 1.0},
+      {"name": "ETL/ELT", "weight": 0.95},
+      {"name": "Data Processing", "weight": 0.95},
+      {"name": "Data Modeling", "weight": 0.9}
+    ],
+    "good_to_have": [
+      {"name": "Apache Spark", "weight": 0.9},
+      {"name": "Cloud Platforms (AWS/GCP/Azure)", "weight": 0.9},
+      {"name": "Apache Kafka", "weight": 0.8},
+      {"name": "Docker", "weight": 0.75},
+      {"name": "Kubernetes", "weight": 0.75},
+      {"name": "CI/CD", "weight": 0.8},
+      {"name": "Data Warehousing", "weight": 0.85},
+      {"name": "Workflow Orchestration", "weight": 0.8}
+    ],
+    "specialized": [
+      {"name": "Databricks", "weight": 0.85},
+      {"name": "NLP", "weight": 0.7},
+      {"name": "Machine Learning", "weight": 0.75},
+      {"name": "LLMs / GenAI", "weight": 0.7},
+      {"name": "Kubeflow", "weight": 0.7},
+      {"name": "Power BI / Tableau", "weight": 0.65}
+    ]
+  },
+
+  "tools_and_technologies": [
+    "BigQuery",
+    "Snowflake",
+    "Hadoop",
+    "Hive",
+    "Airflow"
+  ],
+
+  "responsibilities": [
+    "Design and build scalable data pipelines",
+    "Ensure data quality, reliability, and performance",
+    "Integrate data from multiple sources",
+    "Collaborate with data scientists and analysts",
+    "Maintain and optimize data infrastructure"
+  ],
+
+  "qualifications": {
+    "education": "Bachelor’s or Master’s in Computer Science or related field",
+    "certifications": []
+  },
+
+  "experience_requirements": {
+    "min_years": 3,
+    "max_years": 8
+  },
+
+  "keywords": [
+    "data engineering",
+    "etl",
+    "data pipelines",
+    "big data",
+    "data infrastructure"
+  ]
+}
