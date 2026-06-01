@@ -1,12 +1,12 @@
 from fastapi import FastAPI, UploadFile, File, Form
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.parser import (
+from backend.app.parser import (
     extract_text_from_pdf,
     parse_resume_llm,
 )
 
-from app.scorer import (
+from backend.app.scorer import (
     get_jd,
     load_jd,
     calculate_overall_ats_score,
