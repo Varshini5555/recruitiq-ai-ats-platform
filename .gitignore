@@ -31,7 +31,6 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.txt
 
 # Python Environment Files
 .python-version
