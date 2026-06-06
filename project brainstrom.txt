@@ -1,0 +1,89 @@
+I want the following features in my ats resume parser
+1. to compare with real world job descriptions and not assumptions
+2. purely skill based on not primarily on experience(secondary)
+
+3. includes recruiter insigths
+  red flag detection
+  "recruiter_flags": [
+  "Too many tools listed without usage",
+  "Projects lack evaluation metrics",
+  "No deployment experience"
+]
+
+4. the following sections to check 1. layout and searchability 2. ats readability (these two are based on how the resume looks in a general tech resume rules)
+    3. impact score(based on the skills, projects, and quantitative impact of those and can also include experience if it is relevant to the current role they are applying for otherwise suggest experience at the bottom of the page)
+    by also finding quantified and missing quantification bullets
+    4. other quality metrices (like buzzwords, incosistent date formats and avoiding personal pronouns and gramatical errors like use of active voices) 
+    5. checks spelling errors
+
+4. tool depth score while scoring the skills section make sure if its mentioned in projects or experienct(also the mention of librarires in the particular tool counts) and give weightage based on that
+Levels:
+Basic → used in coursework
+Intermediate → used in projects
+Advanced → used in production / pipelines
+
+How to detect:
+verbs like: built, deployed, optimized
+tools: Streamlit, APIs, pipelines
+
+5. also check if the project is end to end by checking for either keywords like data collection, cleaning, evaluation etc or the tools used for it like API, scraping, Streamlit/API but if only mentions keywords without the tools give feedback to include the tools used aswell
+ and call it project maturity score
+
+6. if it includes ML based projects look for specific metrices of the models rather than just mentioning the model names like
+ Used Random Forest instead Used Random Forest, evaluated with F1-score
+ "modeling_rigor": "high / medium / low"
+
+7.also look for some standard modern stack :
+ LLMs (OpenAI, Hugging Face, Groq)
+ APIs
+ Deployment (Streamlit, FastAPI)
+ Vector DB (bonus)
+ "modern_stack_score": 9/10
+but be sure to use it as a side with a bit of moderate weightage and not high weightage to them
+
+
+8.also toolchain cohesion score where you score them based on if they just use one tool in a project or 
+an entire toolkit like Python + Pandas + Scikit-learn + Streamlit and not some random tools together and suggest them to remove if it doesn't make sense.
+
+9. also measure the project relevance to the target role by matching the jd with their experience and project for the target role
+
+10. problem framing score for projects and experience section to exclude some generic phrases and suggest strong problem phrases
+
+11. if a person wants to upload the jd themselves then score them only based on that jd and ignore the system available jds.
+
+{
+  "overall_score": 82,
+
+  "skill_score": 85,
+  "project_score": 88,
+  "impact_score": 70,
+  "ats_format_score": 90,
+  "grammar_score": 92,
+
+  "data_science_specific": {
+    "project_maturity": 8.5,
+    "modeling_rigor": "medium",
+    "feature_engineering": 7.5,
+    "evaluation_depth": "medium",
+    "experimentation": 6,
+    "data_scale_awareness": 5,
+    "production_readiness": 8,
+    "toolchain_cohesion": 8,
+    "pipeline_thinking": 7,
+    "statistical_depth": 7,
+    "problem_framing": 8
+  },
+
+  "job_match": {
+    "match_score": 78,
+    "missing_skills": ["Docker", "Deep Learning"],
+    "role_alignment": { 'for the particular role 
+    they want to compare to'
+    }
+  },
+
+  "recruiter_flags": [
+    "Lack of quantified impact in projects",
+    "Limited deployment exposure"
+  ]
+}
